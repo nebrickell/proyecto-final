@@ -1,0 +1,129 @@
+.ezy__testimonial24 {
+  /* Bootstrap variables */
+  --bs-body-color: #28303b;
+  --bs-body-bg: rgb(255, 255, 255);
+
+  /* Easy Frontend variables */
+  --ezy-theme-color: rgb(13, 110, 253);
+  --ezy-theme-color-rgb: 254, 161, 22;
+  --ezy-card-bg: rgb(246, 246, 246);
+  --ezy-img-shadow: -8px 25px 40px 0 rgba(0, 0, 0, 0.43);
+
+  background-color: var(--bs-body-bg);
+  color: var(--bs-body-color);
+  /* overflow: hidden; */
+  position: relative;
+  padding: 60px 0;
+}
+
+@media (min-width: 768px) {
+  .ezy__testimonial24 {
+    padding: 100px 0;
+  }
+}
+
+/* Gray Block Style */
+.gray .ezy__testimonial24,
+.ezy__testimonial24.gray {
+  /* Bootstrap variables */
+  --bs-body-bg: rgb(246, 246, 246);
+
+  /* Easy Frontend variables */
+  --ezy-card-bg: rgb(255, 255, 255);
+}
+
+/* Dark Gray Block Style */
+.dark-gray .ezy__testimonial24,
+.ezy__testimonial24.dark-gray {
+  /* Bootstrap variables */
+  --bs-body-color: #ffffff;
+  --bs-body-bg: rgb(30, 39, 53);
+
+  /* Easy Frontend variables */
+  --ezy-card-bg: rgb(11, 23, 39);
+  --ezy-img-shadow: -8px 25px 40px 0 rgba(0, 0, 0, 0.5);
+}
+
+/* Dark Block Style */
+.dark .ezy__testimonial24,
+.ezy__testimonial24.dark {
+  /* Bootstrap variables */
+  --bs-body-color: #ffffff;
+  --bs-body-bg: rgb(11, 23, 39);
+
+  /* Easy Frontend variables */
+  --ezy-card-bg: rgb(30, 39, 53);
+  --ezy-img-shadow: -8px 25px 40px 0 rgba(0, 0, 0, 0.5);
+}
+
+.ezy__testimonial24-heading {
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 1.3;
+}
+.ezy__testimonial24-sub-heading {
+  opacity: 0.8;
+  font-size: 18px;
+  line-height: 1.3;
+}
+
+.ezy__testimonial24-divider {
+  margin: 0 auto;
+  width: 5%;
+}
+
+.ezy__testimonial24-item {
+  background-color: transparent;
+}
+
+.ezy__testimonial24-item img {
+  box-shadow: var(--ezy-img-shadow);
+}
+
+/* indicators */
+.ezy__testimonial24 .carousel-indicators {
+  margin: 0;
+  bottom: -50px;
+}
+
+.ezy__testimonial24 .carousel-indicators button {
+  width: 40px;
+  height: 3px;
+  background-color: var(--bs-body-color);
+  opacity: 0.2;
+  transition: 0.5s;
+}
+
+.ezy__testimonial24 .carousel-indicators button.active {
+  background-color: rgba(var(--ezy-theme-color-rgb), 1) !important;
+  color: rgba(var(--ezy-theme-color-rgb), 1) !important;
+  opacity: 1;
+  width: 50px;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: #fea116 !important; /* Color del indicador */
+  width: 14px !important; /* Ancho */
+  height: 14px !important; /* Alto */
+  border-radius: 50% !important; /* Redondez perfecta */
+  margin: 0 5px !important; /* Espaciado entre indicadores */
+}
+
+.carousel-indicators [data-bs-target].active {
+  background-color: #ff5733 !important; /* Color cuando está activo */
+  width: 14px !important;
+  height: 14px !important;
+  border-radius: 50% !important;
+}
+
+/* Estilos básicos para slick carousel */
+/* Estilo para el efecto glassmorphism */
+/* Estilo para el efecto glassmorphism */
+/* Estilo para el efecto glassmorphism */
+.glassmorphism {
+  background: rgba(255, 255, 255, 0.9) !important; /* Fondo semitransparente */
+  border-radius: 10px !important; /* Bordes redondeados */
+  backdrop-filter: blur(40px) !important; /* Desenfoque de fondo */
+  border: 1px solid rgba(255, 255, 255, 0.2) !important; /* Borde sutil */
+  padding: 1rem !important; /* Padding para el espacio interno */
+}

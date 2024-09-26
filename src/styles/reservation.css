@@ -1,0 +1,335 @@
+.inline-reservation {
+  background-color: transparent;
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+.auto-container-reservation {
+  margin: 0 auto;
+  max-width: 1200px;
+  position: static;
+}
+.title-box-reservation {
+  margin-bottom: 40px;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.subtitle-reservation {
+  color: #fea116;
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+  font-weight: 800;
+  letter-spacing: 0.2em;
+  line-height: 1em;
+  margin-bottom: 10px;
+  position: relative;
+  text-transform: uppercase;
+  border: none;
+  margin: 0;
+  outline: none;
+  padding: 0;
+}
+
+.h2-reservation {
+  margin-bottom: 0;
+  position: relative;
+  background: none;
+  color: black;
+  font-family: "Nunito", sans-serif;
+  line-height: 1.2em;
+  padding-top: 0.7rem;
+  margin: 0;
+  font-size: 1.8rem;
+}
+.text1-reservation {
+  font-family: "Nunito", sans-serif;
+  color: black;
+  margin-bottom: 15px;
+  padding: 0;
+  max-width: none;
+  margin: 0;
+  line-height: 1.85em;
+  position: relative;
+}
+.text2-reservation {
+  max-width: none;
+  padding-top: 0;
+  margin: 0 auto;
+  line-height: 1.85em;
+  position: relative;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+}
+
+.reservation-form {
+  border: none;
+  font-size: 100%;
+  line-height: inherit;
+  margin: 0;
+  outline: none;
+  padding: 0;
+  position: relative;
+  padding-right: var(250px);
+}
+
+/**/
+
+.default-form {
+  position: relative;
+}
+.reservation-form {
+  position: relative;
+}
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.btn-style-one {
+  position: relative;
+  display: flex;
+  vertical-align: top;
+  justify-content: center;
+  text-align: center;
+  color: #000;
+  font-weight: 600;
+  padding: 11px 45px;
+  font-family: "Karla", sans-serif;
+  font-size: 16px;
+  background: #f4ce14;
+  border: 2px solid #f4ce14;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px; /* Ajusta el margen superior si es necesario */
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.col-lg-4 {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.col-md-12 {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.col-sm-12 {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+@media (min-width: 576px) {
+  .col-sm-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .col-md-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .col-md-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  .col-lg-4 {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+  }
+}
+/**/
+
+.field-inner-reservation {
+  display: block;
+  position: relative;
+  border: none;
+  font-size: 100%;
+  line-height: inherit;
+  margin: 0;
+  outline: none;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+.field-person-reservation {
+  padding-left: 40px;
+  appearance: none;
+  cursor: pointer;
+  border: 1px solid #495e57;
+  background-color: white;
+  color: #757575;
+  font-family: "Nunito";
+  border-radius: 5px;
+  display: block;
+  font-size: 16px;
+  font-weight: 500;
+  height: 56px;
+  line-height: 34px;
+  padding: 10px 20px;
+  position: relative;
+  transition: all 0.3s ease;
+  width: 100%;
+  margin: 0;
+  outline: none;
+  box-sizing: border-box;
+  overflow: visible;
+}
+
+.field-person-reservation option {
+  cursor: pointer;
+  padding-left: 20px;
+  text-indent: 20px;
+  border: none;
+  font-size: 100%;
+  line-height: inherit;
+  margin: 0;
+  outline: none;
+  padding: 0;
+}
+
+.icon1-reservation {
+  color: black;
+  line-height: 30px;
+  margin-top: -8px;
+  pointer-events: none;
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+  left: 15px;
+  display: inline-block;
+  height: 14px;
+}
+.icon2-reservation {
+  color: black;
+  line-height: 30px;
+  margin-top: -8px;
+  pointer-events: none;
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+  right: 15px;
+  display: inline-block;
+  height: 14px;
+}
+
+.datePicker-reservation {
+  padding-left: 40px;
+  appearance: none;
+  cursor: pointer;
+  border: 1px solid var(hsla(0, 0%, 100%, 0.1));
+  border-radius: 5px;
+  display: block;
+  font-size: 16px;
+  font-weight: 400;
+  height: 56px; /* Ajusta la altura si es necesario */
+  line-height: 34px;
+  padding: 10px 20px;
+  position: relative;
+  transition: all 0.3s ease;
+  width: 100%; /* Asegúrate de que el width sea suficiente para el contenido */
+  margin: 0;
+  outline: none;
+  box-sizing: border-box;
+  overflow: visible;
+}
+
+/* Modificar los puntos del carrusel */
+.ant-carousel .slick-dots li button {
+  width: 12px; /* Ajusta el ancho del dot */
+  height: 12px; /* Ajusta la altura del dot */
+  background-color: white; /* Cambia el color del punto */
+  border: none; /* Elimina cualquier borde si lo tiene */
+}
+
+/* Cambiar el estilo del punto activo */
+.ant-carousel .slick-dots li.slick-active button {
+  background-color: white; /* Asegúrate de que el punto activo también sea blanco */
+  width: 26px;
+}
+
+/* Remover el círculo negro interno */
+.ant-carousel .slick-dots li button::before {
+  display: none; /* Elimina el punto negro interno */
+}
+
+/* media */
+@media (max-width: 1199px) {
+  .text1-reservation {
+    padding: 0 100px;
+  }
+}
+@media (max-width: 991px) {
+  .inline-reservation {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .form-reservation {
+    padding-right: 0;
+  }
+
+  .btn-style-one {
+    margin-top: 0;
+    position: relative;
+    text-align: center;
+    top: 0;
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  .reservation-form {
+    display: flex;
+    flex-direction: column; /* Cambia la dirección del flex a columna si es necesario */
+
+    padding-right: 0; /* Asegúrate de que no haya padding innecesario */
+    justify-content: space-between;
+  }
+
+  .btn-style-one {
+    margin-top: 20px; /* Ajusta el margen superior si es necesario */
+  }
+  .datePicker-reservation {
+    width: 400rem; /* Asegúrate de que el width sea adecuado para pantallas grandes */
+    max-width: 400rem; /* Asegúrate de que no haya un width máximo que limite el tamaño */
+  }
+}
+
+@media (min-width: 768px) {
+  .column1-form-reservation {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .column2-form-reservation {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}

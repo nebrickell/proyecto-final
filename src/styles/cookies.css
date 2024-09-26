@@ -1,0 +1,106 @@
+.ezy__cookies14 {
+  /* Bootstrap variables */
+  --bs-body-color: #262830;
+  --bs-body-bg: #fff;
+
+  /* Easy Frontend variables */
+  --ezy-theme-color: rgb(13, 110, 253);
+  --ezy-theme-color-rgb: 13, 110, 253;
+  --ezy-card-bg: rgb(255, 255, 255);
+  --ezy-box-shadow: 0px 6px 44px rgba(173, 174, 197, 0.2);
+
+  background-color: var(--bs-body-bg);
+  padding: 60px 0;
+}
+
+@media (min-width: 768px) {
+  .ezy__cookies14 {
+    padding: 100px 0;
+  }
+}
+
+/* Gray Block Style */
+.gray .ezy__cookies14,
+.ezy__cookies14.gray {
+  /* Bootstrap variables */
+  --bs-body-bg: rgb(246, 246, 246);
+}
+
+/* Dark Gray Block Style */
+.dark-gray .ezy__cookies14,
+.ezy__cookies14.dark-gray {
+  /* Bootstrap variables */
+  --bs-body-color: #ffffff;
+  --bs-body-bg: rgb(30, 39, 53);
+
+  /* Easy Frontend variables */
+  --ezy-card-bg: rgb(11, 23, 39);
+  --ezy-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Dark Block Style */
+.dark .ezy__cookies14,
+.ezy__cookies14.dark {
+  /* Bootstrap variables */
+  --bs-body-color: #fff;
+  --bs-body-bg: rgb(11, 23, 39);
+
+  /* Easy Frontend variables */
+  --ezy-card-bg: rgb(30, 39, 53);
+  --ezy-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.ezy__cookies14-heading {
+  color: var(--bs-body-color);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.ezy__cookies14-sub-heading {
+  color: var(--bs-body-color);
+  font-size: 16px;
+  line-height: 1.5;
+  opacity: 0.8;
+}
+
+/* card */
+.ezy__cookies14-card {
+  background-color: var(--ezy-card-bg) !important;
+  box-shadow: var(--ezy-box-shadow) !important;
+  border: none !important;
+  border-radius: 20px !important;
+  transition: 0.4s !important;
+}
+.ezy__cookies14-card:hover {
+  background-color: rgba(var(--ezy-theme-color-rgb), 0.05) !important;
+  border: none !important;
+  border-radius: 20px !important;
+  box-shadow: var(--ezy-box-shadow) !important;
+  transform: translateY(-10px) !important;
+}
+
+.ezy__cookies14-fill-btn {
+  color: var(--bs-body-color);
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.ezy__cookies14-fill-btn:hover {
+  color: rgba(var(--ezy-theme-color-rgb), 0.9);
+}
+.ezy__cookies14-btn {
+  color: var(--bs-body-color);
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.ezy__cookies14-btn:hover {
+  color: rgba(var(--ezy-theme-color-rgb), 0.9);
+}
